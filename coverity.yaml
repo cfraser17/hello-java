@@ -8,4 +8,4 @@ analyze:
       enabled: true
 commit:
   connect:
-    on-new-cert: trust
+    on-new-cert: "trust"
