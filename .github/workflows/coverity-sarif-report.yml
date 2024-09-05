@@ -25,7 +25,6 @@ jobs:
         coverity_passphrase: ${{ secrets.COVERITY_PASSPHRASE }}
         coverity_project_name: coverity-test
         coverity_stream_name: coverity-test-main
-        coverity_policy_view: 'Outstanding Issues'
         coverity_local: true
     - name: Coverity SARIF Report
       env:
