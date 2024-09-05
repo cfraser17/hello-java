@@ -6,3 +6,6 @@ analyze:
   checkers:
     webapp-security:
       enabled: true
+commit:
+  connect:
+    on-new-cert: trust
