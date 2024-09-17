@@ -47,4 +47,3 @@ jobs:
       with:
         name: bridge-logs
         path: ${{ github.workspace }}/.bridge/
-        include-hidden-files: true
